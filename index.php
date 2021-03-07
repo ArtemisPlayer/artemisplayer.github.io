@@ -27,6 +27,8 @@
         require 'pages/home.php';
     } else if ($_GET["page"] == "about"){
         require 'pages/about.php';
+    } else if ($_GET["page"] == "edit"){
+        require 'pages/edit.php';
     } else {
         die("Des amateurs c'est ce que nous sommes tous, on ne vit jamais assez longtemps pour être autre chose, surtout vous.");
     }

@@ -10,6 +10,16 @@ function extend(id){
     button.style.display='none';
 }
 
+function load(){
+    pass = document.getElementById("mdp").value;
+    art = document.getElementById("nom").value;
+    if (art ==''){
+        window.location.href="/index.php?page=edit&pass=" + pass;
+    } else {
+        window.location.href="/index.php?page=edit&pass=" + pass + "&edit=" + art;
+    }
+}
+
 </script>
 
 
@@ -32,12 +42,16 @@ function extend(id){
     <div class="side">
             Hello there ! Welcome on my website that is also used as a blog.<br>
             I'm a french student, you can know more about me clicking the right button up there.
-            I'm programming using various languages: Python3, PHP, C, HTML, CSS and JS, you can find examples
-            of what I am doing on <a href="">my Github</a>.
             <br>
             <br>
             <B>A quote:</B> (in french)<br>
             <?php require 'cits.php';?>
-            <?php require 'mail.php'; ?>
-    </div>
+            <br><br>
+            <div class="private">
+            <B>Private space:</B><br>
+                Password: <input id="mdp" type="text"><br>
+                Article: <input id="nom" type="text"><br><br>
+                <button type="button" onclick="load();" class='viewmore'>Connexion</button>
+            </div>
+     </div>
 </div>

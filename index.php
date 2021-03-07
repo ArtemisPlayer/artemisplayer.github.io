@@ -6,13 +6,14 @@
     <head>
         <title>ArtemisPlayer</title>
         <link href="css/global.css" rel="stylesheet">
+        <link href="fonts/css/all.css" rel="stylesheet">
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
     </head>
 
     <body>
     <div class="header">
         <div class="logo">
-            <a href="/">ArtemisPlayer's Website</a>
+            <a href="/"><B>ArtemisPlayer's Website</B></a>
         </div>
 
         <div class="about">

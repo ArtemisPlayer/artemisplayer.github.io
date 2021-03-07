@@ -32,5 +32,12 @@ function extend(id){
     <div class="side">
             Hello there ! Welcome on my website that is also used as a blog.<br>
             I'm a french student, you can know more about me clicking the right button up there.
+            I'm programming using various languages: Python3, PHP, C, HTML, CSS and JS, you can find examples
+            of what I am doing on <a href="">my Github</a>.
+            <br>
+            <br>
+            <B>A quote:</B> (in french)<br>
+            <?php require 'cits.php';?>
+            <?php require 'mail.php'; ?>
     </div>
 </div>

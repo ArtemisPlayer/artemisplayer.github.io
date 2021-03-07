@@ -1,0 +1,68 @@
+
+html, body{
+    padding:0;
+    margin:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+a{
+    color:#5c5c5c;
+    text-decoration: none;
+}
+
+/* HEADER */
+.header{
+    background-color: black;
+    padding:10px;
+    display:flex;
+    position:sticky 0px;
+    font-weight: 500;
+    align-items: center;
+}
+
+.logo {
+    flex: 1;
+    font-size: 25px;
+}
+.logo>a{
+    color:white;
+}
+
+.about{
+    flex:1;
+    max-width: 300px;
+    color:white;
+    font-size: 20px;
+    height:35px;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+.github{
+    flex:1;
+    padding-left:10px;
+    max-width: 40px;
+}
+.github>img{
+    width: 30px;
+    height: 30px;
+}
+.aboutButton{
+    flex:1;
+    padding:7px;
+    background-color:white;
+    color: black;
+    border-radius: 20px;
+    border:solid 2px;
+    border-color:black;
+    font-size: 20px;
+    margin: 7px;
+    margin-left:20px;
+    max-width: 150px;
+    cursor:pointer;
+    transition: all 0.3s ease;
+}
+.aboutButton:hover{
+    margin-left: 10px;
+    max-width: 170px;
+}

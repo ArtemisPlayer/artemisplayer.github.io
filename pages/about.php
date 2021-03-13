@@ -6,7 +6,7 @@
     <div class="text">
         <h2>ArtemisPlayer</h2>
             <div class='icon-list'>
-                <i class="fab fa-php"></i> 
+                <i class="fab fa-php" style='font-size:35px'></i> 
                 <i class="fab fa-html5"></i>
                 <i class="fab fa-css3-alt"></i>
                 <i class="fab fa-js"></i>

@@ -1,7 +1,7 @@
 
 
 
-<span id="citations" style="font-size:16px">
+<span id="citations" style="font-size:16px; color:  #43119a ;">
     Les citations n'ont pas pu charger...
 </span>
 <br>
@@ -19,4 +19,4 @@ function changeCit(){
 changeCit();
 </script>
 
-<button class="viewmore" onclick="changeCit();">Another one !</button>
+<button class="viewmore" onclick="changeCit();" style='margin-left:5px;'>Une autre !</button>

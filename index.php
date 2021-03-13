@@ -13,7 +13,7 @@
     <body>
     <div class="header">
         <div class="logo">
-            <a href="/"><B>ArtemisPlayer's Website</B></a>
+            <a href="/"><B>N. GASC's Website</B></a>
         </div>
 
         <div class="about">

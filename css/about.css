@@ -22,3 +22,21 @@
     display: inline;
     
 }
+
+.icon-list>i{
+    transition:all 0.5s ease;
+}
+.icon-list>i:hover{
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 35px;
+}
+
+@media (max-width:800px){
+    .container{
+        display: block;
+    }
+    .xlogo{
+        width:60vw;
+    }
+}

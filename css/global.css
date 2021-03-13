@@ -22,10 +22,14 @@ a{
 .logo {
     flex: 1;
     font-size: 25px;
-
+    letter-spacing: normal;
+    transition: all 0.3s ease;
 }
 .logo>a{
     color:white;
+}
+.logo:hover{
+    letter-spacing: 0.7px;
 }
 
 .about{
@@ -36,7 +40,8 @@ a{
     height:35px;
     text-align: right;
     display: flex;
-    align-items: center;
+    align-items:center;
+    justify-content: right;
 }
 .github{
     flex:1;
@@ -51,7 +56,7 @@ a{
     flex:1;
     padding:7px;
     background-color:white;
-    color: black;
+    color: white;
     border-radius: 20px;
     border:solid 2px;
     border-color:black;
@@ -60,9 +65,20 @@ a{
     margin-left:20px;
     max-width: 150px;
     cursor:pointer;
+    background-image: linear-gradient(to bottom right, #000066 0%, #660033 100%);
     transition: all 0.3s ease;
 }
 .aboutButton:hover{
     margin-left: 10px;
     max-width: 170px;
+}
+
+@media (max-width:800px){
+    .logo{
+        font-size: 22px;
+    }
+    .github{
+        display:none;
+    }
+
 }

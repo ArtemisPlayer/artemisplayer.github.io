@@ -55,3 +55,4 @@ function load(){
             </div>
      </div>
 </div>
+<span style="display:none">Nathan GASC ArtemisPlayer Polytechnique GASC</span>

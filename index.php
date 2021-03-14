@@ -4,7 +4,7 @@
 
 <html>
     <head>
-        <title>ArtemisPlayer</title>
+        <title>Nathan GASC's website</title>
         <link href="css/global.css" rel="stylesheet">
         <link href="fonts/css/all.css" rel="stylesheet">
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
@@ -13,12 +13,12 @@
     <body>
     <div class="header">
         <div class="logo">
-            <a href="/"><B>N. GASC's Website</B></a>
+            <a href="/"><B>Home</B></a>
         </div>
 
         <div class="about">
             <button type="button" class="aboutButton" onclick="location.href='/index.php?page=about'">About Me</button>
-            <a class="github" href=""><img src="media/github.png"></a>
+            <a class="github" href="https://github.com/ArtemisPlayer"><img src="media/github.png"></a>
         </div>
     </div>
 

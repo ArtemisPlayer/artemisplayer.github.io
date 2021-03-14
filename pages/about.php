@@ -3,8 +3,9 @@
 </style>
 
 <div class="container">
+    
     <div class="text">
-        <h2>ArtemisPlayer</h2>
+        <h2>Who I am</h2>
             <div class='icon-list'>
                 <i class="fab fa-php" style='font-size:35px'></i> 
                 <i class="fab fa-html5"></i>
@@ -32,7 +33,11 @@
     </div>
 
     <div class="text">
-        <h2>Contact</h2>
+        <h2>My github</h2>
+        You can find some of my projects (including this website, a very basic 3D engine and a 2D multiplayer game)
+        on <a href='https://github.com/ArtemisPlayer'>my GitHub</a>.<br>
+
+        <h2>Contact me</h2>
         My name is Nathan GASC, you can contact me using my email: firstname.lastname@polytechnique.org
         (not writing it explicitly for bots reasons).<br><br>
         <div style="text-align:center"> 

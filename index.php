@@ -5,6 +5,7 @@
 <html>
     <head>
         <title>Nathan GASC's website</title>
+        <meta name="google-site-verification" content="jLy_9gzdkk3nE5Py_Ukit-gnsV80lpjpJ50e41phdqk" />
         <link href="css/global.css" rel="stylesheet">
         <link href="fonts/css/all.css" rel="stylesheet">
         <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >

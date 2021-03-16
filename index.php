@@ -1,5 +1,9 @@
 <?php
 //entry point
+
+if (isset($_GET['ajax'])){
+    require 'ajax.php';
+}
 ?>
 
 <html>

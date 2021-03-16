@@ -13,7 +13,7 @@
     max-height:150px;
     margin:10px;
     padding:10px;
-    border-radius:15px;
+    
     font-size: 20px;
     background-color: #e9e9e9;
     transition: all 0.8s ease;
@@ -37,13 +37,13 @@
     max-width: 300px;
     margin:10px;
     padding:10px;
-    border-radius:15px;
+    
     font-size: 20px;
     background-color: #e9e9e9;
 }
 .private{
     background-color: #c4c4c4;
-    border-radius:15px;
+    
     margin:5px;
     padding:10px;
     font-size:16px;

@@ -2,9 +2,9 @@ require 'webpush'
 
 Webpush.payload_send(
     message: "Salutations.",
-    endpoint: "https://fcm.googleapis.com/fcm/send/dZektOzV6hU:APA91bFL3ENp0dcfvllQndEGorXdjY7y92D0fxF4aUM1CQGzOrXLSAA3AxE_KVIGflX62Hf_K5agNqfssaTvPvA7tzVgaxQzyG1rmHQHRoSy1kpgOL90m9dETDeNgDFgDDIkBcJ4u2W4",
-    p256dh: "BEvXnCzKj1iFPam9qphf9-Yk5PZkbNARJCH0jS7FevcSga-u8W6Ptsiy_5nHK5qlwaO6b0Uf3gN5bxNHxfRgLVY",
-    auth: "Ri8LJaaSS1gtUzC3nj4TRw",
+    endpoint: "https://fcm.googleapis.com/fcm/send/dCSEXCRIny4:APA91bGH9qPqWs6nU6ce-vB3fVaBiBzjNcVtttp9Jt0_LkmrqgHFWqdT561SYjuXW8cDBSvu4Vr6elnvS5KLvqtd5zpHR8e6mlqvpy0s5NQJOo8LdVjtFetcp0uiQrMCltsuwL1T5Ldq",
+    p256dh: "BEjHWU0CzB34yKsdufDk5EmB0TJZHdccAe9eokVCv45XFHnBrXhbEgIxoBBN3pVDQO7PLbuy6ICdoLjJ6b7JiCI",
+    auth: "lz8O0d1c4eb_q_UP-z4fzw",
     ttl: 24 * 60 * 60,
     vapid: {
     subject: 'mailto: <dovahkin60@gmail.com>',

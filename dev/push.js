@@ -34,10 +34,11 @@ function subscribeUser() {//essaie de souscrie à un service de push, mais sous 
   // pas de firefox)
     navigator.serviceWorker.ready.then(function(reg) {
 
-      reg.pushManager.subscribe({ // il faut aujouter la clé ici
+      reg.pushManager.subscribe({ 
         userVisibleOnly: true,
         applicationServerKey: vapidPublic
       }).then(function(sub) {
+        console.log(sub);
         console.log(sub.toJSON());
         texte.innerHTML = sub.toJSON().endpoint + "<br>AUTH: "+ sub.toJSON().keys.auth + "<br>p256dh : "+sub.toJSON().keys.p256dh;
       }).catch(function(e) {
@@ -49,6 +50,31 @@ function subscribeUser() {//essaie de souscrie à un service de push, mais sous 
       });
     });
 
+}
+
+function tester(){
+  serviceWorkerRegistration.pushManager.getSubscription()  
+    .then(function(subscription) {  
+      var pushButton = document.querySelector('.js-push-button');  
+      pushButton.disabled = false;
+
+      if (!subscription) {  
+        console.log('subscription error '); 
+        return;  
+      }
+      console.log('subscriptioned ');
+
+      // Keep your server in sync with the latest subscriptionId
+      sendSubscriptionToServer(subscription);
+
+      // Set your UI to show they have subscribed for  
+      // push messages  
+      pushButton.textContent = 'Disable Push Messages';  
+      isPushEnabled = true;  
+    })  
+    .catch(function(err) {  
+      console.warn('Error during getSubscription()', err);  
+    });
 }
   
 

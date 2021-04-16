@@ -3,21 +3,11 @@ texte.innerHTML = "Start";
 
 var vapidPublic = new Uint8Array([4, 8, 191, 84, 173, 203, 74, 164, 200, 144, 125, 97, 11, 233, 1, 220, 230, 27, 68, 222, 114, 8, 200, 54, 254, 51, 130, 103, 92, 99, 144, 203, 74, 75, 201, 47, 33, 233, 244, 42, 126, 20, 40, 39, 188, 126, 184, 179, 170, 135, 106, 97, 89, 49, 165, 111, 229, 149, 45, 180, 23, 240, 177, 222, 98]);
 
-function stopWorker(){ //arrête les eventuelles taches
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.getRegistrations()
-        .then(function(registrations) {
-            for(let registration of registrations) {
-               if(registration.active.scriptURL == 'http://localhost/my-push/myworker.js'){ registration.unregister(); }
-            }
-        });
-  }
-}
 
 function startWorker(){// démarre le service worker
   stopWorker();
   if ('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/sw.js')
+    navigator.serviceWorker.register('/dev/sw.js')
     .then(function(registration) {
       console.log('Registration successful, scope is:', registration.scope);
     })

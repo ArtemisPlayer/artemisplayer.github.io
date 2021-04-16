@@ -5,7 +5,6 @@ var vapidPublic = new Uint8Array([4, 8, 191, 84, 173, 203, 74, 164, 200, 144, 12
 
 
 function startWorker(){// démarre le service worker
-  stopWorker();
   if ('serviceWorker' in navigator) {
     navigator.serviceWorker.register('/dev/sw.js')
     .then(function(registration) {

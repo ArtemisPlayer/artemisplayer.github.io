@@ -81,9 +81,7 @@ p{
         margin-left: 2vw;
         margin-right: 2vw;
     }
-    #mailIcon{
-        display: none;
-    }
+
     .pp{
         width: 60vw;
     }
@@ -101,6 +99,9 @@ p{
 
     .point{
         margin-bottom: 30px;
+    }
+    .contact{
+        margin-right: 0px;
     }
 
 }

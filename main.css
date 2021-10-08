@@ -17,8 +17,8 @@ a:hover{
 .intro{
     margin-top: 200px; 
     text-align: center;
-    margin-left: 30vw;
-    margin-right: 30vw;
+    margin-left: 28vw;
+    margin-right: 28vw;
     transition: all 1s ease;
 }
 
@@ -36,11 +36,12 @@ a:hover{
     font-size: 22px;
 }
 p{
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .presentation{
     display: flex;
+    line-height: 25px;
 }
 
 .contact{
@@ -64,4 +65,13 @@ p{
 .point{
     margin-bottom: 100px;
     transition: all 1.5s ease;
+}
+
+.showButton{
+    font-size:24px;
+    cursor:pointer;
+}
+.icon{
+    height:20px;
+    margin-right: 5px;
 }

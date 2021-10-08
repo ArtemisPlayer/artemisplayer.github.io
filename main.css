@@ -16,8 +16,8 @@ a:hover{
 .intro{
     margin-top: 200px; 
     text-align: center;
-    margin-left: 28vw;
-    margin-right: 28vw;
+    margin-left: 25vw;
+    margin-right: 25vw;
     transition: all 1s ease;
 }
 
@@ -47,6 +47,7 @@ p{
     flex:1;
     margin-right: 20px;
     margin-top:30px;  
+    min-width: 340px;
     text-align: right;
 }
 .introText{

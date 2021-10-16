@@ -68,9 +68,15 @@ p{
 }
 
 .showButton{
+    padding-top: 0px;
     font-size:24px;
     cursor:pointer;
+    transition: all 0.7s ease;
 }
+.showButton:hover{
+    font-size: 26px;
+}
+
 .icon{
     height:20px;
     margin-right: 5px;
@@ -85,9 +91,6 @@ p{
 
     .pp{
         width: 60vw;
-    }
-    .presentation{
-        display: block;
     }
 
     .showButton{
@@ -108,4 +111,13 @@ p{
         margin-left: 0px;
     }
 
+}
+
+@media (max-width:1300px){
+    .presentation{
+        display: block;
+    }
+    .intro{
+        margin-top: 100px; 
+    }
 }

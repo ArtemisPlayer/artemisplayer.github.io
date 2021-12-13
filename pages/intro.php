@@ -16,7 +16,7 @@
         </div>
         <div class='introText'>
             <p>
-                I'm a french student at the <a href='https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique'>Ecole Polytechnique</a> near Paris. I'm looking for a 12-weeks intership next summer in STEM or consulting. 
+                I'm a french student at the <a href='https://en.wikipedia.org/wiki/%C3%89cole_Polytechnique'>Ecole Polytechnique</a> near Paris. I'm looking for a 12-weeks intership next summer in STEM, informatics or consulting. 
             </p>
         </div>
     </div>
@@ -39,6 +39,7 @@
                 Experiences
             </h2>
             <ul style="text-align: left;">
+                <li>2021 - Today : President of the computer association of the Ecole Polytechnique</a></li>
                 <li>2021 - Today : Webmaster of the <a href='https://www.x-forum.fr/'>X-Forum</a></li>
                 <li>Summer 2021 : Volunteering for the FACE in French Polynesia (consulting for the creation of a food bank)</li>
                 <li>June 2019 : <a href='https://en.wikipedia.org/wiki/International_Physics_Olympiad'>International Physics Olympiad (IPhO)</a> in Tel-Aviv, french team.</li>
@@ -52,6 +53,7 @@
             <ul style="text-align: left;">
                 <li>Programming languages : Python3, C, PHP, JAVA, VBA, HTML, CSS, JS, SQL</li>
                 <li>Tools : Office, SolidWorks, Simulink, VS Code, GIT, Windows and Ubuntu</li>
+                <li>Cybersecurity : Root-me, <a href="https://tracs.viarezo.fr/">TRACS</a> (8th team over 94 in 2021)</li>
                 <li>Other : Driving License, fluent in french, advanced in english, intermediate in spanish</li>
             </ul>
         </div>
